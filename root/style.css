@@ -1,0 +1,373 @@
+@charset "utf-8";
+
+/* CSS Document for adaptive site example  DA 131b */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, #side, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, #side, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+/* end of Eric's Reset styles */
+
+body{
+	background: #000000;
+}
+
+/*header*/
+
+header{
+	background:#000000 url("images/html5.png") no-repeat center 10px;
+	height:166px;
+	max-width:100%;
+	max-height: 100%;
+}
+
+header h1{
+	background-color: #a87040;
+	color:#711323;
+	font-family: Georgia,Times,Times New Roman, sans-serif;
+	font-size:2em;
+	font-weight: bold;
+	padding:10px 0 10px 15px;
+	position:relative;
+	top:80px;
+}
+
+header p{
+	color:#ffffff;
+	background-color: #a87040;
+	font-family: Verdana,Arial,Helvetica, sans-serif;
+	font-weight:bold; 
+	padding:2px 0 10px 30px;
+	font-size:1.4em;
+	position:relative;
+	top:80px;
+}
+
+/*header end*/
+
+/*navbar start - horizontal bar - */
+
+#navbar{
+	background-color:#f5d7b4;
+	border-top:1.5px solid #000000;
+	border-bottom: 1.5px solid #000000;
+	font-family: Georgia,Times,Times New Roman, sans-serif;
+}
+
+#navbar ul{
+	display:flex;
+	-ms-display:flex;
+	-webkit-display:flex;
+	-moz-display:flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	list-style: none;
+	margin-left:22%;
+}
+
+#navbar ul li{
+	margin:10px 20px;
+}
+
+#navbar ul li a{
+	text-decoration: none;
+	color: #a87040;
+	text-align: center;
+	font-size: 1.2em;
+	padding:0px 10px;
+	display:block;
+}
+
+/*navbar end - horizontal bar- */
+
+/*sidebar #side start*/
+
+#side{
+	background-color:#a87040;
+	font-family: Georgia,Times,Times New Roman, sans-serif;
+}
+
+#side ul:first-child{
+	flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	text-align: center;
+}
+
+#side ul li{
+	color:#711323;
+	font-size:1.2em;
+	font-style: italic;
+	font-weight:bold;
+	list-style: none;
+	padding-top:15px;
+	display: block;
+}
+
+#side ul li ul li{
+	border-right: 1.5px solid #ffffff;
+	padding:0 8px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#side ul li ul li a{
+	text-decoration:none;
+	text-align: center;
+	font-size: 0.52em;
+	font-style: normal;
+	font-weight: normal;
+	color:#ffffff;
+}
+
+#side ul li ul li:last-child {
+	border:none;
+}
+/*sidebar #side end*/
+
+/*main start*/
+
+main{
+	background-color:#ffedd6;
+	font-family: Lucida Grande,Lucida Sans Unicode,Verdana, sans-serif;
+}
+
+main h1{
+	color:#711323;
+	font-family: Verdana,Arial,Helvetica, sans-serif;
+	font-size: 1.67em;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 10px;
+	display:flex;
+	-ms-display:flex;
+	-webkit-display:flex;
+	-moz-display:flex;
+	justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	margin-left:0.5em;
+}
+
+main h2{
+	font-family: Georgia,Times,Times New Roman, sans-serif;
+	font-size: 1.2em;
+	color: #a87040;
+	font-weight:bold;
+	margin: 1.5em 0 0.8em 0.5em; 
+}
+
+main p.alignright{
+	display:block;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 0.5em;
+}
+
+/*wanna fix the img*/
+
+main p{
+	color: #711323;
+	font-size:0.9em;
+	margin:0 0.5em;
+	line-height: 17px;
+	padding:0.5em 0;
+}
+
+/*main end*/
+
+/*footer start*/
+
+footer p{
+	color:#711323;
+	background-color: #568600;
+	padding: 15px 0;
+	text-align: center;
+	font-size:1em;
+	font-family: Lucida Grande,Lucida Sans Unicode,Verdana, sans-serif;
+}
+
+/*footer end*/
+
+p{
+	padding: 30px 0;
+}
+
+p img{
+	display:block;
+	max-height: 100%;
+	max-width: 100%;
+	margin:0 auto;
+}
+
+/********************************************************************************
+*
+*     media queries
+*
+*********************************************************************************/
+
+
+@media only screen and (min-width: 48em){
+	#wrapper{
+		background-color:  #a87040;
+		position:relative;
+		max-width: 62.5em;
+	}
+	
+	body{
+		margin:2em 2em 0 2em ;
+	}
+	
+	/*header*/
+
+	header{
+		background:#a87040 url("images/html5.png") no-repeat 98% 10px;
+	}
+	
+	header h1{
+		display:block;
+		position:absolute;
+		top:40px;
+		background-color: transparent;
+	}
+	
+	header p{
+		display:block;
+		position:absolute;
+		top:90px;
+		background-color: transparent;
+	}
+	
+	/*header end*/
+
+	/*navbar start - horizontal bar - */
+	
+	#navbar{
+		border-top:2px solid #000000;
+	}
+	
+	#navbar ul{
+		margin:0;
+		padding:0;
+		justify-content: center;
+		-ms-justify-content: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+	}
+	
+	#navbar ul li{
+		text-align: center;
+	}
+	
+	#navbar ul li a{
+		font-size:1em;
+	}
+	
+	/*navbar end - horizontal bar - */
+	
+	/*sidebar #side start*/
+	
+	#side{
+		position:absolute;
+		right: 0;
+		width: 19%;
+	}
+	
+	#side ul:first-child{
+		flex-wrap: nowrap;
+		text-align: left;
+		padding: 6px 0 0 20px;
+	}
+	
+	#side ul li{
+		font-size:1em;	
+		display: block;
+	}
+	
+	#side ul li ul li{
+		border:none;
+		padding:0;
+		margin-bottom: 0;
+		display:block;
+		padding:4px 0;
+	}
+
+	#side ul li ul li a{
+		font-size: .8em;
+	}
+	
+	#side ul li ul li:last-child {
+		border:none;
+	}
+	
+	/*sidebar #side end*/
+	
+	/*main start*/
+	
+	main{
+		padding:0 3% 50px 0;
+		margin-right: 20%;
+	}
+	
+	main h1{
+		font-size: 1.5em;
+		text-align: left;
+		padding: 50px 0 0 30px;
+	}
+	
+	main h2{
+		font-size: 1em;
+		padding: 10px 0 0 33px;
+	}
+	
+	main p.alignright{
+		float:right;
+		width: 30%;
+	}
+	
+	main p{
+		padding-left:30px;
+	}
+	
+	/*main end*/
+	
+	p{
+		padding:70px 0 0 0; 
+	}
+}

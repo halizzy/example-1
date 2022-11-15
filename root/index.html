@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">	
+	<title>An adaptive site.</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="js/picturefill.js" async></script>
+	<script src="js/picturefill.min.js" async></script>
+</head>
+<body>
+
+<!--
+///// /////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//                                                                           //
+//        DO NOT CHANGE ANYTHING BELOW THIS POINT IN THE HTML 		         //
+//              ONLY MAKE CHANGES IN THE HEAD TAG ABOVE                      //
+//                                                                           //
+//                                                                           //
+////////////////////////////////////////////////////////////////////////////// 
+-->
+
+<div id="wrapper"> 
+
+    <header> 
+            <h1>An adaptive site</h1>
+            <p>responds to browser width...</p>
+    </header> 
+    <!-- header ends-->
+    
+
+    <nav id="navbar">        
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav> 
+    <!--horizontal nav ends-->
+    
+    
+    <!-- begin sidebar -->
+    
+	<nav id="side">    
+		
+        <ul>
+    
+			<li>Where
+				<ul>
+					<li><a href="http://www.abookapart.com/products/responsive-web-design" title="A Book Apart, Responsive Web Design">The Book</a></li>
+					<li><a href="http://www.w3.org" title="World Wide Web Consortium">W3.org</a></li>
+					<li class="last"><a href="http://www.alistapart.com" title="For People Who Make Websites">A List Apart</a></li>
+				</ul>
+			</li>
+            
+			<li>Who
+				<ul>
+					<li><a href="http://unstoppablerobotninja.com/" title="The inventor.">Ethan Marcotte</a></li>
+					<li><a href="http://www.meyerweb.com" title="The site of CSS guru Eric Meyer.">Eric Meyer</a></li>
+					<li><a href="http://www.veen.com/jeff/" title="Jeffrey Veen.">Jeffrey Veen</a></li>
+					<li class="last"><a href="http://www.zeldman.com" title="Blog of Zeldman - Web man extraordinaire.">Zeldman</a></li>
+				</ul>
+			</li>
+            
+		</ul>
+            
+	</nav> <!-- end side nav -->
+    
+    
+    <main> <!-- beginning of content -->
+
+		<h1>Adapt, Respond, and Overcome</h1>
+        
+        <h2>The Way Forward</h2>
+        
+        <p class="alignright">
+			<img srcset="images/mushroom_small.jpg 320w,
+						images/mushroom_medium.jpg 640w,
+						images/mushroom_large.jpg 1000w,
+						images/mushroom_xlarge.jpg 2000w,
+						images/mushroom_orginal.jpg 3000w"
+						
+						size="(min-width:48em) 50vw, 100vw"
+								   
+								   
+					 src="images/mush.jpg" alt="mushroom"></p>
+        
+        <p>What’s fascinating to me is that architects are trying to over come the constraints inherent to their medium. But web designers, facing a changing landscape of new devices and contexts, are now forced to overcome the constraints we’ve imposed on the web’s innate flexibility.</p>
+
+        <h2>We need to let go.</h2>
+        
+        <p>Rather than creating disconnected designs, each tailored to a particular device or browser, we should instead treat them as facets of the same experience. In other words, we can craft sites that are not only more flexible, but that can adapt to the media that renders them.</p>
+        
+        <p>In short, we need to practice responsive web design. We can embrace the flexibility inherent to the web, without surrendering the control we require as designers. All by embedding standards-based technologies in our work, and by making a slight change in our philosophy toward online design.</p>
+        
+        <p>- Ethan Marcotte</p>
+        
+        
+	</main> <!-- end content -->
+    
+    
+
+    <footer> <!-- footer starts-->
+    
+		<p>anadaptivesite.com</p>
+    
+    </footer> <!-- footer ends-->
+
+
+</div> <!-- wrapper ends-->
+
+
+
+<p class="validation">
+    <img src="images/vcss.gif" alt="Valid CSS!" />
+</p>
+
+</body>
+</html>

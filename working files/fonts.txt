@@ -1,0 +1,20 @@
+
+Fonts:
+
+header h1 - Georgia/Times/Times New Roman
+	
+header p - Verdana/Arial/Helvetica
+	
+
+h1 - Verdana/Arial/Helvetica
+	
+h2 - Georgia/Times/Times New Roman
+	
+
+paragraphs - Lucida Grande/Lucida Sans Unicode/Verdana
+
+
+horizontal menu - Georgia/Times/Times New Roman
+
+side menu -  Georgia/Times/Times New Roman
+
